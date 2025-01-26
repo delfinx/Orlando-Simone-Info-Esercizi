@@ -7,10 +7,13 @@ public class Esercizio3_1
         System.out.println("Inserisci un numero");
         int numero = input.nextInt();
 
-        if(numero > 0 && numero < 100)
-        System.out.println(true);
-        else
-        System.out.println(false);
+        if(numero > 0 && numero < 100) {
+            System.out.println(true);
+        }
+        else {
+            System.out.println(false);
+        }
+
 
 
     }
