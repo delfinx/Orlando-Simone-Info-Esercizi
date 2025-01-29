@@ -6,14 +6,12 @@ public class Esercizio4_9
 
 		System.out.println("Inserisci una parola");
 		String risposta = input.nextLine().toLowerCase();
-		char nomeInvertito;
 		String nomeCompleto = "";
-		int incrementatoreParola = 0;
 
 		for(int i = 0; i < risposta.length(); i++){
 		    int lunghezzaNome = risposta.length();
-		    incrementatoreParola++;
-		    nomeInvertito = risposta.charAt(lunghezzaNome - a);
+		 
+		    char nomeInvertito = risposta.charAt(risposta.length() - i - 1);
 		    nomeCompleto += nomeInvertito;
 		    System.out.println(nomeCompleto);
 		}
